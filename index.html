@@ -4,10 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive HTML5 CSS3 Navigation Menu - No Framework</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <div class="navbar"></div>
+    <div class="navbar desktop-menu">
+      <div class="logo">
+        <a href="#"><img src="src/logo.png" alt="my-logo" /></a>
+      </div>
+      <div id="menuSection" class="menu-sec">
+        <ul class="nav-menu">
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="social-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-github"></i>
+        <i class="fas fa-basketball-ball"></i>
+      </div>
+    </div>
+    <div class="body-content">
+      <p>Body Content Goes Here</p>
+    </div>
+    <div class="footer">
+      <p>
+        Copyright © 2021 | Developed by
+        <a href="https://arravind.com/" target="_blank">Arravind</a>
+      </p>
+    </div>
     <script type="text/javascript" src="src/script.js"></script>
   </body>
 </html>
