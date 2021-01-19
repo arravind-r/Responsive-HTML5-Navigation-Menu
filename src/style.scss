@@ -96,3 +96,33 @@ body {
     }
   }
 }
+
+/* Mobile Responsiveness CSS */
+
+@media only screen and (max-width: 650px) {
+  .desktop-menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo img {
+      width: 110px;
+    }
+  }
+  // Body Content
+  .body-content {
+    height: calc(100vh-60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  // Footer
+  .footer p {
+    font-size: 13px;
+  }
+}
