@@ -106,7 +106,8 @@ body {
   .desktop-menu {
     display: none;
   }
-  .mob-menu-container {
+  .mob-menu-container,
+  .mob-menu-wrap {
     display: none;
   }
   .displayon {
@@ -137,19 +138,6 @@ body {
       outline: inherit;
       text-transform: uppercase;
     }
-    // button:hover {
-    //   background: none;
-    //   box-shadow: none;
-    //   border: none;
-    //   text-shadow: none;
-    // }
-    // button:active {
-    //   outline: none;
-    //   border: none;
-    // }
-    // button:focus {
-    //   outline: 0;
-    // }
   }
   .mob-menu-container {
     background-color: rgba(255, 255, 255, 0.9);
@@ -166,6 +154,7 @@ body {
       left: 28px;
     }
   }
+
   .mob-menu-wrap {
     width: 80%;
     background-color: #ffffff;
@@ -208,6 +197,7 @@ body {
       }
     }
   }
+
   // Body Content
   .body-content {
     height: calc(100vh - 135px);

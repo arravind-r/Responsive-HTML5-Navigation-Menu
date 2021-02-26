@@ -119,7 +119,8 @@ body {
   .desktop-menu {
     display: none;
   }
-  .mob-menu-container {
+  .mob-menu-container,
+  .mob-menu-wrap {
     display: none;
   }
   .displayon {
