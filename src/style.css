@@ -7,7 +7,8 @@ body {
 
 /* Navbar */
 .mobile-menu,
-.mob-menu-container {
+.mob-menu-container,
+.mob-menu-wrap {
   display: none;
 }
 
@@ -182,6 +183,8 @@ body {
     height: 100%;
     position: fixed;
     right: 0;
+    -webkit-transition: linear 3s;
+    transition: linear 3s;
   }
   .mob-menu-wrap .menu-content {
     display: -webkit-box;

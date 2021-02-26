@@ -7,7 +7,8 @@ body {
 
 /* Navbar */
 .mobile-menu,
-.mob-menu-container {
+.mob-menu-container,
+.mob-menu-wrap {
   display: none;
 }
 //General Config
@@ -163,6 +164,7 @@ body {
     height: 100%;
     position: fixed;
     right: 0;
+    transition: linear 3s;
 
     .menu-content {
       display: flex;
