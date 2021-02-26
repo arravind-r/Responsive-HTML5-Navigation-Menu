@@ -122,6 +122,9 @@ body {
   .mob-menu-container {
     display: none;
   }
+  .displayon {
+    display: block;
+  }
   .mobile-menu {
     display: -webkit-box;
     display: -ms-flexbox;

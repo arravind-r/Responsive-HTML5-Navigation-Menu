@@ -35,8 +35,12 @@
         <i class="fas fa-basketball-ball"></i>
       </div>
     </div>
-    <div class="mob-menu-container">
-      <img src="src/close.png" alt="close-icon" />
+    <div id="mobMenuCont" class="mob-menu-container">
+      <img
+        onclick="closeMobMenuToggle()"
+        src="src/close.png"
+        alt="close-icon"
+      />
       <div class="mob-menu-wrap">
         <div class="menu-content">
           <div class="menu-items">
@@ -62,7 +66,7 @@
       <div class="logo">
         <a href="#"><img src="src/logo.png" alt="my-logo" /></a>
       </div>
-      <button onclick="mobMenuToggle" class="menu">Menu</button>
+      <button onclick="mobMenuToggle()" class="menu">Menu</button>
     </div>
     <div class="body-content">
       <p>Body Content Goes Here</p>
